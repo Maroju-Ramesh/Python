@@ -48,6 +48,8 @@ for i in range(low, upp + 1):
     if i == sum:
         print(i)
         
+        #------------ Feb--15-----------
+        
 #Q)Searching for an element in a list?
 def search_num(list,search_element):
     for i in list:
@@ -60,3 +62,29 @@ if (search_num(list1,element)):
     print("found")
 else:
     print("not found")
+    
+#Q) Finding duplicates in list using empty list    
+def duplicates(list):
+    unique=[]
+    duplicate=[]
+    for i in list:
+        if i in unique:
+            duplicate.append(i)
+        else:
+            unique.append(i)
+    print(unique)
+    print(duplicate)
+duplicates([1,2,3,4,5,1,2])
+
+#Q) Finding duplicates in list using empty sets for time complexity o(1)
+def duplicates(list):
+    unique=set()
+    duplicate=set()
+    for i in list:
+        if i in unique:
+            duplicate.append(i)
+        else:
+            unique.append(i)
+    print(unique)
+    print(duplicate)
+duplicates([1,2,3,4,5,1,2])  
