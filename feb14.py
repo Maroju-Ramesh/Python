@@ -63,7 +63,7 @@ if (search_num(list1,element)):
 else:
     print("not found")
     
-#Q) Finding duplicates in list using empty list    
+#Q) Finding duplicates in list using empty set    
 def duplicates(list):
     unique=[]
     duplicate=[]
