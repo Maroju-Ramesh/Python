@@ -47,3 +47,16 @@ for i in range(low, upp + 1):
 
     if i == sum:
         print(i)
+        
+#Q)Searching for an element in a list?
+def search_num(list,search_element):
+    for i in list:
+        if search_element == i:
+            return True
+    return False
+list1=[]
+element=1
+if (search_num(list1,element)):
+    print("found")
+else:
+    print("not found")
