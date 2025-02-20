@@ -1,4 +1,4 @@
-list_2=sorted(list_1)
+# list_2=sorted(list_1)
 # res=[]
 # for i in list_1:
 #     temp=list_2.index(i) +1
